@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- References a Handlebars partial in views/partials/head.handlebars -->
+<title>thoughtBubble</title>
+{{>head}}
+</head>
+<body style="background-color:#4d8ea8;">
+<!-- References a Handlebars partial in views/partials/navbar.handlebars -->
+{{>navbarlogin}}
+<!-- The HTML for each view goes here -->
+<div>
+{{{body}}} </div>
+{{>footer}}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
+

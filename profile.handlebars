@@ -1,0 +1,57 @@
+<div class="container-fluid" align="center">
+  <br><br><br><br><br><br>
+  <!--an edit profile button will be inserted here someday-->
+  <span class="center">
+  	<p><img src="img/user.png" style="width: 100px; height: 100px; background: #ccc; border-radius: 50%;" alt="profilePicture"></p>
+  <h3>Username</h3>
+  	<p>This is your profile. This is supposed to be a description. Yay.</p></span><hr>
+
+<div class="tabs">
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#wall" class="tabs">Wall</a></li>
+  <li><a data-toggle="tab" href="#geninfo" class="tabs">General Information</a></li>
+  <li><a data-toggle="tab" href="#photos" class="tabs">Photos</a></li>
+  <li><a data-toggle="tab" href="#contributions" class="tabs">Contributions</a></li>
+</ul>
+</div>
+
+<div class="tab-content" align="left">
+  	<div id="wall" class="tab-pane fade in active">
+    	<h3>Posts</h3>
+      	<p>Post stuff here.</p></br>
+      	<div contenteditable="true" style="width: 100%; height: 200px; overflow: scroll; padding: 20px; border-radius: 10px; border: 2px solid #4d8ea8; background-color: white;" align="left"></div><br>
+      	<p><button type="submit" class="btn btn-primary btn-block" style="background-color: #4d8ea8">Submit</button></p>
+	</div>
+  	<div id="geninfo" class="tab-pane fade">
+    	<h3>About Me</h3> <!--retrieve values from database-->
+    		<p style="text-align: left">
+    		Name:<br>
+    		<input type="text" name="firstname" value="Jane" disabled>
+    		<input type="text" name="lastname" value="Doe" disabled><br>
+    		Age:<br>
+    		<input type="text" name="age" value=21 disabled><br>
+    		Gender:<br>
+    		<input type="text" name="gender" value="Female" disabled><br>
+    		Email:<br>
+    		<input type="text" name="email" value="jane@random.com" disabled><br>
+    		Location:<br>
+    		<input type="text" name="location" value="Places" disabled><br>
+    		</p>
+  	</div>
+  	<div id="photos" class="tab-pane fade">
+    	<h3>Photos</h3>
+    		<p>Store photos here.</p>
+  	</div>
+ 	<div id="contributions" class="tab-pane fade">
+    	<h3>I'm a Part of...</h3>
+     		<p>Creator of: 
+          <li><a href="/topic">Topic 1</a></li>
+        </p>
+    		<p>Member of:
+          <li><a href="/topic">Topic 1</a></li>
+          <li><a href="/subtopic">Subtopic 2</li>
+        </p>
+ 	</div>
+</div>
+<br><br><br><br><br><br>
+</div>
